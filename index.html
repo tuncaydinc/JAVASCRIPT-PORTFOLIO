@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuncay Dinc - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="overlay">
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home" onclick="closeMenu()">Home</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#work" onclick="closeMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header id="home">
+        <h1>Tuncay Dinc</h1>
+        <p>Junior Web Developer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>A passionate junior web developer exploring the digital world, crafting interactive and dynamic web experiences.</p>
+    </section>
+
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Responsive Blog Platform</h3>
+                <p>A fully responsive blog website with a clean UI.</p>
+            </div>
+            <div class="project">
+                <h3>Task Manager App</h3>
+                <p>A productivity app to track tasks and manage time efficiently.</p>
+            </div>
+            <div class="project">
+                <h3>Real-Time Chat Application</h3>
+                <p>Developed a lightweight chat application with WebSockets.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:tuncaydinc@egeacademy.ca">tuncaydinc@egeacademy.ca</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tuncay Dinc. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
